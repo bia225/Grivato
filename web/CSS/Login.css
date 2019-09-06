@@ -1,0 +1,31 @@
+body{
+    /*background-image:  url("login_background.jpg");*/
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("login_background.jpg");
+    background-size: 1600px 1152px;
+        background-attachment:fixed;
+
+}
+
+.sign_in{
+  margin: auto;
+  width: 20%;
+  border: 3px solid gold;
+  padding: 10px;
+}
+
+h1{
+    color: gold;
+    
+}
+
+td {
+    color: gold;
+}
+
+a{
+    color: white;
+}
+
+span{
+     font-size:32px;
+}

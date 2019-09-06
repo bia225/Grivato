@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Grivato | Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/Signup.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="SignUpScript.js"></script>
+    </head>
+    <body>
+        <div class="sign_up">
+        <h2>Create an Account</h2>
+        <form name="signup" action="CreateAccount" onsubmit="return validateForm()" method="post">
+        <table>
+            <tr>
+                <td>
+                    Username:
+                </td>
+                <td>
+                    <input type="text" name="user">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="password" name="pass">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Confirm Password:
+                </td>
+                <td>
+                    <input type="password" name="pass2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    First Name:
+                </td>
+                <td>
+                    <input type="text" name="fname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name:
+                </td>
+                <td>
+                    <input type="text" name="lname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone Number:
+                </td>
+                <td>
+                    <input type="text" name="phone">
+                </td>
+            </tr>
+        </table>
+            <br><input type="submit" value="Create Account">
+        
+        </form>
+        <br><a href="index.html">Back</a>
+        </div>
+    </body>
+</html>

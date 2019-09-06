@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("background2.jpg");
+    background-size: 1980px 1152px;
+    background-attachment:fixed;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: red;
+}
+
+a {
+  color: white;
+}
+
+th{
+    color: gold;
+}
+
+td{
+    color: white;
+}
